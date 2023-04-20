@@ -9,7 +9,7 @@ const pool = mysql.createPool({
   database: process.env.DB_NAME,
 });
 
-//View users
+// View users
 exports.view = (req, res) => {
   pool.getConnection((err, connection) => {
     if (err) throw err;
@@ -35,7 +35,7 @@ exports.view = (req, res) => {
   });
 };
 
-// find user by search
+// Find user by search
 exports.find = (req, res) => {
   pool.getConnection((err, connection) => {
     if (err) throw err;
@@ -69,12 +69,12 @@ exports.find = (req, res) => {
   });
 };
 
-// add user get
+// Add user get
 exports.form = (req, res) => {
   res.render("add-user");
 };
 
-//add user post
+// Add user post
 exports.create = (req, res) => {
   const { first_name, last_name, email, phone, comments } = req.body;
 
@@ -90,7 +90,7 @@ exports.create = (req, res) => {
       "INSERT INTO user SET first_name = ?, last_name = ?, email = ?, phone = ?, comments = ?",
       [first_name, last_name, email, phone, comments],
       (err, rows) => {
-        // when done with the connection, release it
+        // When done with the connection, release it
         connection.release();
 
         if (!err) {
@@ -229,13 +229,13 @@ exports.delete = (req, res) => {
   });
 };
 
-// view a particular user
+// View a particular user
 exports.viewall = (req, res) => {
   pool.getConnection((err, connection) => {
     if (err) throw err;
     console.log("Connected as ID " + connection.threadId);
 
-    // user - the connection
+    // User - the connection
     connection.query(
       "SELECT * FROM user WHERE id = ?",
       [req.params.id],
