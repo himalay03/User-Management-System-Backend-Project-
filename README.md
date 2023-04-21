@@ -3,14 +3,9 @@ Backend Project with Node.js, Express.js, MySQL and Handlebars
 
 ## Deployment
 
-Link to visit the FlashCard Generator App
-```bash
-https://himalay03-flashcard-generator.netlify.app/
-```
-
 Youtube Link for the video demonstration of the project
 ```bash
-https://www.youtube.com/watch?v=vVFROxt5mms&t=119s
+https://youtu.be/3E2b57_EA_k
 ```
 
 
@@ -20,7 +15,7 @@ https://www.youtube.com/watch?v=vVFROxt5mms&t=119s
 
   git clone
 ```bash
-https://github.com/himalay03/flashcard-generator.git
+https://github.com/himalay03/User-Management-System-Backend-Project-.git
 ```
   
 ### Install dependencies
@@ -32,7 +27,7 @@ https://github.com/himalay03/flashcard-generator.git
 ### Start the server
 
  ```bash
- npm run start
+ npm start
  ```
   
 ## About The App
@@ -64,32 +59,24 @@ Flashcard Details Page: In this page there is a full detail of the cards created
 
 ## Features
 
-- Create Group
-- Add Description (group)
-- Enter Term
-- Term Definition
-- Add More (button)
-- Term Edit (button)
-- Term Delete (button)
-- Create (button)
-- My Flashcards
-- View Flashcards
-- Clear All Cards (button)
+- Home (button)
+- + add user
+- View
+- Edit
+- Delete
 
 ## Tech Stack
 
-- Reactjs( React Router ),
-- Redux & Redux Toolkit,
-- TailwindCSS,
-- React-icons,
-- React Formik & Yup,
+- Node.Js,
+- Express.Js,
+- Handelbars,
+- MySQL
 
 ## 🛠 Skills
 
 - Javascript, 
 - HTML, 
-- CSS, 
-- Reactjs...
+- CSS
 
 ## Project Created By
 
