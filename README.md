@@ -32,19 +32,16 @@ https://github.com/himalay03/User-Management-System-Backend-Project-.git
   
 ## About The App
 
-This is a FlashCard Generator app which have been created mainly using Reactjs. 
-So, what is a Flashcard?
-A Flashcard is a card bearing information on one side or both sides, which is intended to be used as an aid in memorization.
-This app has three pages:
-1.	Create Flashcard Page
-2.	My Flashcard Page
-3.	Flashcard Details Page
+This is a User Management System app which have been created mainly using Node.js, Express.js, Handlebars, and MySQL. 
+It allows administrators to manage user accounts and user data in a database.
+Here's an overview of the app:
+1.  Administrator Authentication: The first thing the administrator should do is its authentication. This means that the administrator must register an account 
+    and then log in to access the system.
+2.	User Management: Administrators should be able to manage user accounts, including adding new users, deleting existing users, and editing user information.
+    On the interface the administrator can view a list of all users and perform various actions on each user.
+3.	Database Integration: To store user data, MySQL database has been created and Node.js app has been configured and connected to it, then database queries has
+    been run to manage database relationships.
 
-Create Flashcard Page: This is the homepage of the app where flashcards are created using input boxes provided by Formix.
-
-My Flashcard Page: This page shows the list of flashcard groups created in the Create page.
-
-Flashcard Details Page: In this page there is a full detail of the cards created earlier with share link, print option and download button. 
 
 ## How To Use
 
