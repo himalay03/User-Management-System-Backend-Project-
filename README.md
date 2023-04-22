@@ -43,17 +43,6 @@ Here's an overview of the app:
     been run to manage database relationships.
 
 
-## How To Use
-
-1.	Go to the flashcard generator deployment link.
-2.	The first page is ‘Create New’ page. In this page there are input boxes for creating new groups. 
-3.	Inside every group there is an option for inserting as many ‘Terms’ as you wish along with its ‘Definition’.
-4.	After done inserting ‘terms’ and its ‘definitions’ there is a ‘Create’ button at the bottom. It creates the ‘group’ and ‘terms’ under the group.
-5.	The second page is ‘My Flashcards’. It shows the list of ‘groups’ created in the previous page.
-6.	Upon clicking the listed groups ‘view cards’ open up and the ‘terms’ and ‘term definitions’ show up.
-7.	At the bottom of this page there is a ‘Clear All Cards’ button which can be used to clear all the records of flashcards from the local storage.
-
-
 ## Features
 
 - Home (button)
