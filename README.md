@@ -57,7 +57,7 @@ Here's an overview of the app:
 ## Features
 
 - Home (button)
-- + add user
+- Add user
 - View
 - Edit
 - Delete
