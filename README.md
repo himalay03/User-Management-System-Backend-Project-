@@ -5,7 +5,7 @@ Backend Project with Node.js, Express.js, MySQL and Handlebars
 
 Youtube Link for the video demonstration of the project
 ```bash
-https://youtu.be/3E2b57_EA_k
+https://youtu.be/7PhghQH5Rzw
 ```
 
 
