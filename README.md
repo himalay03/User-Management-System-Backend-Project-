@@ -41,6 +41,7 @@ Here's an overview of the app:
     On the interface the administrator can view a list of all users and perform various actions on each user.
 3.	Database Integration: To store user data, MySQL database has been created and Node.js app has been configured and connected to it, then database queries has
     been run to manage database relationships.
+![image](https://user-images.githubusercontent.com/114144373/234212738-0d1f2bfa-f0b9-43d4-9f47-d29e8efbf97e.png)
 
 
 ## Features
